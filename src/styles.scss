@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind utilities;
+
+:root {
+    --app-red-accent: #a12e31;
+    --app-pastel-accent: #fff7f0;
+    --app-salmon-accent: #e6c4c3;
+    --app-gray-500: #5d5d5d;
+    --app-gray-300: #7a6767;
+}
+
+@font-face {
+    font-family: ElegantTypewriter;
+    src: url("assets/fonts/ElegantTypewriter_regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ElegantTypewriter;
+    src: url("assets/fonts/ElegantTypewriter_bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: ElegantTypewriter;
+}
