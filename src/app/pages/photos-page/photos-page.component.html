@@ -1,0 +1,8 @@
+<div class="wrapper gap-10">
+    <div class="photo-wrapper mb-10" *ngFor="let photo of photos">
+        <img class="photo" [src]="photo.src" loading="lazy" />
+        <div class="text-sm flex justify-center text-center p-2">
+            <span>{{ photo.description }}</span>
+        </div>
+    </div>
+</div>

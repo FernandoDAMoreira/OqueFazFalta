@@ -1,19 +1,14 @@
-export interface Page {
+export interface PageData {
+    path: string;
     title: string;
     sections: Section[];
 }
 
 export interface Section {
-    type: SECTIOM_TYPE;
+    path: string;
     title: string;
     img: string;
     dataBasePath: string;
     dataFormat: string;
     data: string[];
-}
-
-export enum SECTIOM_TYPE {
-    PHOTOS = 'PHOTOS',
-    AUDIOS = 'AUDIOS',
-    VIDEOS = 'VIDEOS',
 }

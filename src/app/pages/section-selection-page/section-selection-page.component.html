@@ -1,0 +1,13 @@
+<div class="flex flex-wrap gap-16 justify-center">
+    <div
+        (click)="handleSectionClick(section)"
+        role="button"
+        class="section mb-10"
+        *ngFor="let section of (pageData$ | async)!.sections"
+    >
+        <img [src]="section.img" loading="lazy" />
+        <div class="title flex items-center justify-center">
+            <span class="text-xl mt-auto pb-3">{{ section.title }}</span>
+        </div>
+    </div>
+</div>

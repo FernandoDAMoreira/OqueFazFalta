@@ -1,3 +1,8 @@
-<app-header></app-header>
-<br />
+<app-header
+    [pageTitle]="(pageTitle | async)!"
+    [pageSubTitle]="(pageSubTitle | async)!"
+></app-header>
+<div class="px-6 py-12">
+    <router-outlet></router-outlet>
+</div>
 <app-footer></app-footer>

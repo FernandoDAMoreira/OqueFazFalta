@@ -1,9 +1,9 @@
-import { Page, SECTIOM_TYPE, Section } from '../model/page.model';
+import { PageData, Section } from '../model/page.model';
 
 const audiosSection: Section = {
-    type: SECTIOM_TYPE.AUDIOS,
+    path: 'audios',
     title: 'Áudios',
-    img: 'assets/pages/radio/audios.jpg',
+    img: 'assets/pages/radio/audio.jpg',
     dataBasePath: 'assets/pages/radio/audios/',
     dataFormat: 'mp3',
     data: [
@@ -14,7 +14,7 @@ const audiosSection: Section = {
 };
 
 const photosSection: Section = {
-    type: SECTIOM_TYPE.PHOTOS,
+    path: 'fotografias',
     title: 'Fotografias',
     img: 'assets/pages/radio/fotografias.jpg',
     dataBasePath: 'assets/pages/radio/fotografias/',
@@ -34,7 +34,7 @@ const photosSection: Section = {
 };
 
 const objectsSection: Section = {
-    type: SECTIOM_TYPE.PHOTOS,
+    path: 'objetos',
     title: 'Objetos',
     img: 'assets/pages/radio/objetos.jpg',
     dataBasePath: 'assets/pages/radio/objetos/',
@@ -48,7 +48,7 @@ const objectsSection: Section = {
         '6_Recetor_de_Rádio_BRAUN_EXPORTER_1954',
         '7_Recetor_de_Rádio_GRUNDIG_MICKY-BOY_1955',
         '8_Recetor_de_Rádio_EUMIG_OKAY_331_1959',
-        '9_Recetor_de_Rádio_BANG___OLUFSEN_BEOMASTER_900_STEREO_1964',
+        '9_Recetor_de_Rádio_BANG_OLUFSEN_BEOMASTER_900_STEREO_1964',
         '10_Recetor_de_Rádio_FISHER_R-200-B_1967',
         '11_Recetor_de_Rádio_AIWA_8_TRANSISTOR_AR_854_1968',
         '12_Recetor_de_Rádio_ARROW_PUBLIC_SERVICE_BAND_PB940_1968',
@@ -78,7 +78,8 @@ const objectsSection: Section = {
     ],
 };
 
-export const radioData: Page = {
+export const radioPageData: PageData = {
+    path: 'radio',
     title: 'Rádio',
     sections: [audiosSection, photosSection, objectsSection],
 };
