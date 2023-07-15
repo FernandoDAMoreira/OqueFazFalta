@@ -58,6 +58,19 @@ const routes: Routes = [
         path: 'imprensa/revistas',
         component: PhotosPageComponent,
     },
+    // Mundo Artistico
+    {
+        path: 'mundoartistico',
+        component: SectionSelectionPageComponent,
+    },
+    {
+        path: 'mundoartistico/arte',
+        component: PhotosPageComponent,
+    },
+    {
+        path: 'mundoartistico/cartazes',
+        component: PhotosPageComponent,
+    },
 ];
 
 @NgModule({

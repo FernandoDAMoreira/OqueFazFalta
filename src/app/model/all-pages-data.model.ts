@@ -1,7 +1,7 @@
 import { PageData } from './page.model';
 
 export interface AllPagesData {
-    arte?: PageData;
+    mundoartistico?: PageData;
     fotografia?: PageData;
     imprensa?: PageData;
     musica?: PageData;
