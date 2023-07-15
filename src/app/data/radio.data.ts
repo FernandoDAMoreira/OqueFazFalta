@@ -7,9 +7,9 @@ const audiosSection: Section = {
     dataBasePath: 'assets/pages/radio/audios/',
     dataFormat: 'mp3',
     data: [
-        '1_A_1ªSenha_da_Revolução_dos_Cravos-E_Depois_do_Adeus_de_Paulo_de_Carvalho(Rádio_Alfabeta)',
-        '2_A_2ª_Senha_da_Revolução_dos_Cravos_-_Grândola_Vila_Morena_de_José_Afonso_(Rádio_Renascença)',
-        '3_Rádio_Clube_Português_-_Comunicado_da_Ocupação_da_RTP_por_Luís_Filipe_Costa_(25_de_Abril_de_1974)',
+        '1_A_1Senha_da_Revolucao_dos_Cravos_-_E_Depois_do_Adeus_de_Paulo_de_Carvalho(Radio_Alfabeta)',
+        '2_A_2Senha_da_Revolução_dos_Cravos_-_Grandola_Vila_Morena_de_Jose_Afonso_(Radio_Renascenca)',
+        '3_Radio_Clube_Portugues_-_Comunicado_da_Ocupacao_da_RTP_por_Luis_Filipe_Costa_(25_de_Abril_de_1974)',
     ],
 };
 

@@ -1,0 +1,34 @@
+.audio {
+    position: relative;
+    background-color: var(--app-pastel-accent);
+    width: fit-content;
+    max-width: 700px;
+    overflow: hidden;
+
+    button {
+        all: unset;
+    }
+
+    button,
+    p {
+        z-index: 2;
+    }
+
+    .progress-bar {
+        background-color: rgba(#a12e31, 0.8);
+        position: absolute;
+        height: 4%;
+        width: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+}
+
+/* :hover will only work in Edge, Chrome, Safari */
+@media (hover: hover) {
+    svg:hover {
+        cursor: pointer;
+        scale: 1.2;
+    }
+}

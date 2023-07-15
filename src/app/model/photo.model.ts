@@ -1,4 +1,4 @@
-export interface Photo {
+export interface SectionData {
     src: string;
     description: string;
 }
