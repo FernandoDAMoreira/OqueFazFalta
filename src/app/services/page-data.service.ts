@@ -57,6 +57,10 @@ export class PageDataService {
     }
 
     allPagesUrls(): string[] {
-        return Object.keys(allPagesData).map(url => `/${url}`);
+        // This method is only accessed by the index page
+        // Beacause of this we can set the correct titles here
+        this.pageTitle.next('Index');
+        this.pageSubTitle.next('');
+        return Object.keys(allPagesData).map((url) => `/${url}`);
     }
 }
