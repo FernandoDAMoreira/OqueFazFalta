@@ -9,6 +9,7 @@ import { SectionSelectionPageComponent } from './pages/section-selection-page/se
 import { AudiosPageComponent } from './pages/audios-page/audios-page.component';
 import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { VideosPageComponent } from './pages/videos-page/videos-page.component';
+import { IndexPageComponent } from './pages/index-page/index-page.component';
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { VideosPageComponent } from './pages/videos-page/videos-page.component';
         AudiosPageComponent,
         PhotosPageComponent,
         VideosPageComponent,
+        IndexPageComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],

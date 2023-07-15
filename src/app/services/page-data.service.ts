@@ -55,4 +55,8 @@ export class PageDataService {
     get currentSectionData$(): Observable<Section> {
         return this.currentSection.asObservable();
     }
+
+    allPagesUrls(): string[] {
+        return Object.keys(allPagesData).map(url => `/${url}`);
+    }
 }

@@ -3,8 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { SectionSelectionPageComponent } from './pages/section-selection-page/section-selection-page.component';
 import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { AudiosPageComponent } from './pages/audios-page/audios-page.component';
+import { IndexPageComponent } from './pages/index-page/index-page.component';
 
 const routes: Routes = [
+    // Index
+    {
+        path: 'index',
+        component: IndexPageComponent,
+    },
     // Rádio
     {
         path: 'radio',
