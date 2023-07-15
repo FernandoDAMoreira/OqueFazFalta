@@ -119,5 +119,5 @@ const portugalRuralSection: Section = {
 export const fotografiaPageData: PageData = {
     path: 'fotografia',
     title: 'Fotografia',
-    sections: [abrilSection, estadoNovoSection, portugalRuralSection],
+    sections: [estadoNovoSection, portugalRuralSection, abrilSection],
 };

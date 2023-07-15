@@ -13,7 +13,12 @@ export class HeaderComponent {
     constructor(private router: Router) {}
 
     returnToHome(): void {
-        const path = this.pageTitle.replace(/\s+/g, '-').toLowerCase();
+        const path = this.pageTitle
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/\s+/g, '-')
+            .toLowerCase();
+
         this.router.navigate([path]);
     }
 }

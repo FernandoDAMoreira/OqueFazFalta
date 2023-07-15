@@ -39,6 +39,19 @@ const routes: Routes = [
         path: 'fotografia/portugal-rural',
         component: PhotosPageComponent,
     },
+    // Imprensa
+    {
+        path: 'imprensa',
+        component: SectionSelectionPageComponent,
+    },
+    {
+        path: 'imprensa/jornais',
+        component: PhotosPageComponent,
+    },
+    {
+        path: 'imprensa/revistas',
+        component: PhotosPageComponent,
+    },
 ];
 
 @NgModule({
