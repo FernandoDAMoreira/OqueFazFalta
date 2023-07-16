@@ -82,7 +82,7 @@ const pdfSection: Section = {
     path: 'exercicios',
     title: 'Exercícios',
     dataBasePath: 'assets/pages/radio/pdf/',
-    data: ['Exercicios_Jornal_Cartaz.pdf'],
+    data: ['Exercicios_Radio_Noticia.pdf'],
     hideSection: true,
 };
 
