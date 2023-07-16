@@ -1,5 +1,5 @@
-<div class="flex flex-col gap-4">
-    <div class="flex flex-col gap-1 text-sm" *ngFor="let index of pagesIndex">
+<div class="flex flex-col gap-6">
+    <div class="flex flex-col gap-2" *ngFor="let index of pagesIndex">
         <a [routerLink]="[index.pagePath]">{{ index.pagePath }}</a>
         <ng-container *ngIf="index.sectionsPaths">
             <a
