@@ -10,6 +10,7 @@ import { AudiosPageComponent } from './pages/audios-page/audios-page.component';
 import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { VideosPageComponent } from './pages/videos-page/videos-page.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
+import { PdfPageComponent } from './pages/pdf-page/pdf-page.component';
 
 @NgModule({
     declarations: [
@@ -21,6 +22,7 @@ import { IndexPageComponent } from './pages/index-page/index-page.component';
         PhotosPageComponent,
         VideosPageComponent,
         IndexPageComponent,
+        PdfPageComponent,
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],

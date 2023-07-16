@@ -76,8 +76,16 @@ const cartazesSection: Section = {
     ],
 };
 
+const pdfSection: Section = {
+    path: 'exercicios',
+    title: 'Exercícios',
+    dataBasePath: 'assets/pages/mundo-artistico/pdf/',
+    data: ['Exercicios_Arte_Cartoon.pdf'],
+    hideSection: true,
+};
+
 export const mundoArtisticoPageData: PageData = {
     path: 'mundoartistico',
     title: 'Mundo Artístico',
-    sections: [arteSection, cartazesSection],
+    sections: [arteSection, cartazesSection, pdfSection],
 };

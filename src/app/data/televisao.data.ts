@@ -60,8 +60,16 @@ const reportagensSection: Section = {
     ],
 };
 
+const pdfSection: Section = {
+    path: 'exercicios',
+    title: 'Exercícios',
+    dataBasePath: 'assets/pages/televisao/pdf/',
+    data: ['Exercicios_Televisao_Storyboard.pdf'],
+    hideSection: true,
+};
+
 export const televisaoPageData: PageData = {
     path: 'televisao',
     title: 'Televisão',
-    sections: [objetosSection, reportagensSection],
+    sections: [objetosSection, reportagensSection, pdfSection],
 };

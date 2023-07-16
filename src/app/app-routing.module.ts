@@ -5,6 +5,7 @@ import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { AudiosPageComponent } from './pages/audios-page/audios-page.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
 import { VideosPageComponent } from './pages/videos-page/videos-page.component';
+import { PdfPageComponent } from './pages/pdf-page/pdf-page.component';
 
 const routes: Routes = [
     // Index
@@ -29,6 +30,10 @@ const routes: Routes = [
         path: 'radio/objetos',
         component: PhotosPageComponent,
     },
+    {
+        path: 'radio/exercicios',
+        component: PdfPageComponent,
+    },
     // Fotografia
     {
         path: 'fotografia',
@@ -46,6 +51,10 @@ const routes: Routes = [
         path: 'fotografia/portugal-rural',
         component: PhotosPageComponent,
     },
+    {
+        path: 'fotografia/exercicios',
+        component: PdfPageComponent,
+    },
     // Imprensa
     {
         path: 'imprensa',
@@ -59,6 +68,10 @@ const routes: Routes = [
         path: 'imprensa/revistas',
         component: PhotosPageComponent,
     },
+    {
+        path: 'imprensa/exercicios',
+        component: PdfPageComponent,
+    },
     // Mundo Artistico
     {
         path: 'mundoartistico',
@@ -71,6 +84,10 @@ const routes: Routes = [
     {
         path: 'mundoartistico/cartazes',
         component: PhotosPageComponent,
+    },
+    {
+        path: 'mundoartistico/exercicios',
+        component: PdfPageComponent,
     },
     // Musica
     {
@@ -101,6 +118,10 @@ const routes: Routes = [
     {
         path: 'televisao/reportagens',
         component: VideosPageComponent,
+    },
+    {
+        path: 'televisao/exercicios',
+        component: PdfPageComponent,
     },
 ];
 

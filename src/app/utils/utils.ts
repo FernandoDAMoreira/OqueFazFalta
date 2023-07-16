@@ -1,5 +1,5 @@
 import { Section } from '../model/page.model';
-import { SectionData } from '../model/photo.model';
+import { SectionData } from '../model/section-data-item.model';
 
 export default class Utils {
     static getFormatedSecionData(section: Section): SectionData[] {

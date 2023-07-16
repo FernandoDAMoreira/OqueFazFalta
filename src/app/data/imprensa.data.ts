@@ -56,8 +56,16 @@ const revistasSection: Section = {
     ],
 };
 
+const pdfSection: Section = {
+    path: 'exercicios',
+    title: 'Exercícios',
+    dataBasePath: 'assets/pages/imprensa/pdf/',
+    data: ['Exercicios_Jornal_Cartaz.pdf'],
+    hideSection: true,
+};
+
 export const imprensaPageData: PageData = {
     path: 'imprensa',
     title: 'Imprensa',
-    sections: [jornaisSection, revistasSection],
+    sections: [jornaisSection, revistasSection, pdfSection],
 };

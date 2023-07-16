@@ -7,8 +7,9 @@ export interface PageData {
 export interface Section {
     path: string;
     title: string;
-    img: string;
+    img?: string;
     dataBasePath: string;
-    dataFormat: string;
+    dataFormat?: string;
     data: string[];
+    hideSection?: boolean;
 }

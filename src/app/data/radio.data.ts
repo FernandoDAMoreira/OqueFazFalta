@@ -78,8 +78,16 @@ const objectsSection: Section = {
     ],
 };
 
+const pdfSection: Section = {
+    path: 'exercicios',
+    title: 'Exercícios',
+    dataBasePath: 'assets/pages/radio/pdf/',
+    data: ['Exercicios_Jornal_Cartaz.pdf'],
+    hideSection: true,
+};
+
 export const radioPageData: PageData = {
     path: 'radio',
     title: 'Rádio',
-    sections: [audiosSection, photosSection, objectsSection],
+    sections: [audiosSection, photosSection, objectsSection, pdfSection],
 };

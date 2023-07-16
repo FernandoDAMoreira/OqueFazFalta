@@ -1,5 +1,5 @@
 import { AllPagesData } from '../model/all-pages-data.model';
-import { fotografiaPageData } from './fotografias.data';
+import { fotografiaPageData } from './fotografia.data';
 import { imprensaPageData } from './imprensa.data';
 import { mundoArtisticoPageData } from './mundo-artistico.data';
 import { musicaPageData } from './musica.data';

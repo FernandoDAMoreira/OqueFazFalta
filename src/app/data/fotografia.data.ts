@@ -116,8 +116,21 @@ const portugalRuralSection: Section = {
     ],
 };
 
+const pdfSection: Section = {
+    path: 'exercicios',
+    title: 'Exercícios',
+    dataBasePath: 'assets/pages/fotografia/pdf/',
+    data: ['Exercicios_Rolo_Fotografia.pdf'],
+    hideSection: true,
+};
+
 export const fotografiaPageData: PageData = {
     path: 'fotografia',
     title: 'Fotografia',
-    sections: [estadoNovoSection, portugalRuralSection, abrilSection],
+    sections: [
+        estadoNovoSection,
+        portugalRuralSection,
+        abrilSection,
+        pdfSection,
+    ],
 };

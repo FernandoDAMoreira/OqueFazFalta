@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { SectionData } from 'src/app/model/photo.model';
+import { SectionData } from 'src/app/model/section-data-item.model';
 import { PageDataService } from 'src/app/services/page-data.service';
 import Utils from 'src/app/utils/utils';
 
