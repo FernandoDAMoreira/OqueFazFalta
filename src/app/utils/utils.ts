@@ -6,7 +6,7 @@ export default class Utils {
         const result: SectionData[] = [];
         section.data.forEach((data) => {
             result.push({
-                src: `${section.dataBasePath}/${data}.${section.dataFormat}`,
+                src: `${section.dataBasePath}${data}.${section.dataFormat}`,
                 description: data.substring(2).replace(/_/g, ' '),
             });
         });
