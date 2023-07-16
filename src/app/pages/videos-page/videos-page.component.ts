@@ -18,6 +18,5 @@ export class VideosPageComponent {
         this.pageDataService.currentSectionData$.subscribe((section) => {
             this.videos = Utils.getFormatedSecionData(section);
         });
-        console.log(this.videos);
     }
 }

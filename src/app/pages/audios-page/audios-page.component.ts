@@ -50,7 +50,6 @@ export class AudiosPageComponent {
 
     private setAudioPlayingSub(): void {
         this.audioPlaying$.subscribe((audioPlaying) => {
-            console.log(audioPlaying);
             if (audioPlaying.state == AudioStates.PLAYING) {
                 this.audioPlayingId = audioPlaying.id;
                 this.audioPausedId = 0;
