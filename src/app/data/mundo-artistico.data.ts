@@ -78,6 +78,6 @@ const cartazesSection: Section = {
 
 export const mundoArtisticoPageData: PageData = {
     path: 'mundoartistico',
-    title: 'Mundo Artistico',
+    title: 'Mundo Artístico',
     sections: [arteSection, cartazesSection],
 };
