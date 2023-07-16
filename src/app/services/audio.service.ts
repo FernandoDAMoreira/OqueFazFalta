@@ -25,9 +25,8 @@ export class AudioService {
         if (this.audioAlreadyPlaying(src)) {
             this.continue();
         } else {
+            this.stopAudio();
             const audioData = this.audioPlaying.getValue();
-            this.stopAudio(audioData.audioObj);
-
             audioData.audioObj = new Audio(src);
             audioData.audioObj.load();
             audioData.audioObj.onloadedmetadata = () => {
@@ -60,6 +59,11 @@ export class AudioService {
         this.updateState(audioData);
     }
 
+    reset(): void {
+        this.stopAudio();
+        this.audioPlaying.next(NO_AUDIO);
+    }
+
     private continue(): void {
         const audioData = this.audioPlaying.getValue();
         audioData.state = AudioStates.PLAYING;
@@ -76,8 +80,11 @@ export class AudioService {
         return this.audioPlaying.getValue().src == src;
     }
 
-    private stopAudio(audioObj: HTMLAudioElement): void {
-        audioObj.pause();
-        audioObj.currentTime = 0;
+    private stopAudio(): void {
+        const audioObj = this.audioPlaying.getValue()?.audioObj;
+        if (audioObj) {
+            audioObj.pause();
+            audioObj.currentTime = 0;
+        }
     }
 }

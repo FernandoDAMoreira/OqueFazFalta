@@ -5,6 +5,7 @@ import { allPagesData } from '../data/all-pages-data';
 import { AllPagesData } from '../model/all-pages-data.model';
 import { Router } from '@angular/router';
 import { PageIndex } from '../model/page-index.model';
+import { AudioService } from './audio.service';
 
 @Injectable({
     providedIn: 'root',
@@ -17,9 +18,10 @@ export class PageDataService {
     private pageTitle = new BehaviorSubject<string>('');
     private pageSubTitle = new BehaviorSubject<string>('');
 
-    constructor(private router: Router) {}
+    constructor(private router: Router, private audioService: AudioService) {}
 
     loadPageData(): void {
+        this.resetAudioPlayer();
         const pathArray = this.router.url.substring(1).split('/');
         const pagePath = pathArray[0];
         const sectionPath = pathArray[1];
@@ -75,5 +77,9 @@ export class PageDataService {
         });
 
         return pagesIndex;
+    }
+
+    private resetAudioPlayer(): void {
+        this.audioService.reset();
     }
 }
