@@ -9,7 +9,7 @@ const abrilSection: Section = {
     data: [
         '1_Fotografia_de_Alfredo_Cunha',
         '2_Fotografia_de_Alfredo_Cunha',
-        '3_Porto_Ricardo_Pereira',
+        '3_Porto_-_Fotografia_de_Ricardo_Pereira',
         '4_Sede_da_PIDE',
         '5_Fotografia_de_Alfredo_Cunha_Lisboa',
         '5_Lisboa',
