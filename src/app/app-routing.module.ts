@@ -71,6 +71,19 @@ const routes: Routes = [
         path: 'mundoartistico/cartazes',
         component: PhotosPageComponent,
     },
+    // Musica
+    {
+        path: 'musica',
+        component: SectionSelectionPageComponent,
+    },
+    {
+        path: 'musica/audio',
+        component: AudiosPageComponent,
+    },
+    {
+        path: 'musica/objetos',
+        component: PhotosPageComponent,
+    },
 ];
 
 @NgModule({
