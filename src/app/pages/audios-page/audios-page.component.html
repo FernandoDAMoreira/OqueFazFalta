@@ -47,6 +47,7 @@
                 </svg>
             </button>
             <button
+                [class.paused]="audioPausedId == id"
                 [disabled]="audioPlayingId != id"
                 id="pause-btn"
                 (click)="pauseAudio()"

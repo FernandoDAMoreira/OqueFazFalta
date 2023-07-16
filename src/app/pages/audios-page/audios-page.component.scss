@@ -6,6 +6,12 @@
 
     button {
         all: unset;
+
+        &.paused {
+            svg {
+                color: var(--app-red-accent);
+            }
+        }
     }
 
     button,
@@ -14,7 +20,7 @@
     }
 
     .progress-bar {
-        background-color: rgba(#a12e31, 0.8);
+        background-color: var(--app-red-accent);
         position: absolute;
         height: 5%;
         width: 0;
@@ -26,8 +32,12 @@
 
 /* :hover will only work in Edge, Chrome, Safari */
 @media (hover: hover) {
-    svg:hover {
-        cursor: pointer;
-        scale: 1.2;
+    .audio {
+        button:not(:disabled) {
+            svg:hover {
+                cursor: pointer;
+                scale: 1.2;
+            }
+        }
     }
 }
