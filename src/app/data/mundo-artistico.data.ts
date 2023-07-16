@@ -26,7 +26,7 @@ const arteSection: Section = {
         '17_LOranger_de_Vieira_da_Silva_1954',
         '18_Festim_de_Bartolomeu_Cid_dos_Santos_1958',
         '19_Salazar_a_vomitar_a_patria_de_Paula_Rego_1960',
-        '20_Queda_de_Icaro_de_Joao _Cutileiro_1960',
+        '20_Queda_de_Icaro_de_Joao_Cutileiro_1960',
         '21_A_Poesia_Estaa_na_Rua_de_Vieira_da_Silva_1974',
         '22_Estudo_para_um_enriquecimento_interior_de_Helena_Almeida_1977',
         '23_Courtesy_de_Jose_Dias_Coelho_1977',

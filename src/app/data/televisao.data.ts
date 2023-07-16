@@ -31,7 +31,7 @@ const objetosSection: Section = {
         '23_Gravador_de_Video_BOSCH_BCN_20_1974',
         '24_Gravador_de_Video_AMPEX_VPR6_1984',
         '25_Misturador_NAGRA_KUDELSKY_BMT-3_1960',
-        '26_Mesa_de_Edicao_de_Vídeo_SONY_BVE-500_ACE_1970',
+        '26_Mesa_de_Edicao_de_Viideo_SONY_BVE-500_ACE_1970',
         '27_Monitor_FERNSEH_M35BC9F_1957',
         '28_Monitor_EMI_301_1960',
         '29_Monitor_BOSCH_T15_BC91_1970',
