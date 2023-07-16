@@ -4,6 +4,7 @@ import { SectionSelectionPageComponent } from './pages/section-selection-page/se
 import { PhotosPageComponent } from './pages/photos-page/photos-page.component';
 import { AudiosPageComponent } from './pages/audios-page/audios-page.component';
 import { IndexPageComponent } from './pages/index-page/index-page.component';
+import { VideosPageComponent } from './pages/videos-page/videos-page.component';
 
 const routes: Routes = [
     // Index
@@ -83,6 +84,10 @@ const routes: Routes = [
     {
         path: 'musica/objetos',
         component: PhotosPageComponent,
+    },
+    {
+        path: 'musica/video',
+        component: VideosPageComponent,
     },
 ];
 

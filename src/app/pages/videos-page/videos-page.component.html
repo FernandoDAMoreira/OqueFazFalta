@@ -1,1 +1,8 @@
-<p>videos-page works!</p>
+<div class="grid justify-center gap-10">
+    <div class="relative video" *ngFor="let video of videos">
+        <video class="w-full" controls>
+            <source [src]="video.src" type="video/mp4" />
+        </video>
+        <p class="text-sm text-center p-3">{{ video.description }}</p>
+    </div>
+</div>
