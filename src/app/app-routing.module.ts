@@ -89,6 +89,19 @@ const routes: Routes = [
         path: 'musica/video',
         component: VideosPageComponent,
     },
+    // Televisao
+    {
+        path: 'televisao',
+        component: SectionSelectionPageComponent,
+    },
+    {
+        path: 'televisao/objetos',
+        component: PhotosPageComponent,
+    },
+    {
+        path: 'televisao/reportagens',
+        component: VideosPageComponent,
+    },
 ];
 
 @NgModule({

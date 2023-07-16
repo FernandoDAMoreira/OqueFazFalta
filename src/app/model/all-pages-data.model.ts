@@ -6,5 +6,5 @@ export interface AllPagesData {
     imprensa?: PageData;
     musica?: PageData;
     radio: PageData;
-    televisão?: PageData;
+    televisao?: PageData;
 }

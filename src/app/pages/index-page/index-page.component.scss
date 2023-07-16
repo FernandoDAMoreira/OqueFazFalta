@@ -1,4 +1,7 @@
-a:hover {
-    color: var(--app-red-accent);
-    font-weight: bold;
+a {
+    width: fit-content;
+    &:hover {
+        color: var(--app-red-accent);
+        font-weight: bold;
+    }
 }
